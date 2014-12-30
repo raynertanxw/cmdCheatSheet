@@ -1,0 +1,13 @@
+Bash:
+'cd' - change the directory
+'\ ' - escape key for spaces in path names
+'ls' - list the files in the directory
+'nano' - edits a file or creates a file
+
+
+
+DOS
+'cd' - change the directory
+"\My Documents\This Folder has spaces" - Use quotes "" to encapsulate paths with spaces
+'dir' - list the files in the directory
+'d:' - change to d drive, cd does not work for disk directory changes
