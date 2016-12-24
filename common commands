@@ -41,5 +41,5 @@ gcc -Wall -c <filename.c>
 To link files together, simply list them. No need for the '-Wall' option as object files have already been compiled successfully.
 gcc <file1.o> <file2.o> -o <desired filename>
 
-To link with libraries, use the '-l' flag
-gcc -Wall <filename.c> -lm -o <desired filename>
+To link with libraries, use the '-lNAME' flag, where NAME is the same from 'libNAME.a'
+gcc -Wall <filename.c> -lNAME -o <desired filename>
