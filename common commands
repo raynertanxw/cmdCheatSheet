@@ -13,6 +13,7 @@ Bash
 'cd' - change the directory
 '\ ' - escape key for spaces in path names
 'ls' - list the files in the directory
+'clear' - clears the screen.
 'nano' - edits a file or creates a file
 'vim' - edits a file or creates file in vim editing mode.
 
@@ -24,6 +25,7 @@ DOS
 'd:' - change to d drive, cd does not work for disk directory changes
 "\My Documents\This Folder has spaces" - Use quotes "" to encapsulate paths with spaces
 'dir' - list the files in the directory
+'cls' - clears the screen.
 
 ##############
 gcc on Windows
