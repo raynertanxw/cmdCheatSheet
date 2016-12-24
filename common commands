@@ -1,11 +1,15 @@
-git:
+###
+git
+###
 To update previously commited files for a newly added/edited .gitignore, cd to the git directory and execute the following commands:
 git rm -r --cached .
 git add .
 git commit -m ".gitignore is now working"
 git push
 
-Bash:
+####
+Bash
+####
 'cd' - change the directory
 '\ ' - escape key for spaces in path names
 'ls' - list the files in the directory
@@ -13,10 +17,17 @@ Bash:
 'vim' - edits a file or creates file in vim editing mode.
 
 
-
+###
 DOS
+###
 'cd' - change the directory
 'd:' - change to d drive, cd does not work for disk directory changes
 "\My Documents\This Folder has spaces" - Use quotes "" to encapsulate paths with spaces
 'dir' - list the files in the directory
 
+##############
+gcc on Windows
+##############
+To compile using gcc WITH compiler warnings, use the '-Wall' option.
+To compile to a specific name, use '-o <file name>', otherwise the compiled program will be named 'a.out'
+gcc -Wall <filename.c> -o <desired name>
