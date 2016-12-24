@@ -33,3 +33,7 @@ gcc on Windows
 To compile using gcc WITH compiler warnings, use the '-Wall' option.
 To compile to a specific name, use '-o <file name>', otherwise the compiled program will be named 'a.out'
 gcc -Wall <filename.c> -o <desired name>
+
+To compile using gcc into an object file, use the '-c' flag. This produces files "<filename>.o"
+Note: There is no need to use '-o' to specify file name when compiling to object files as it will automatically take the source file name.
+gcc -Wall -c <filename.c>
